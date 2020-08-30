@@ -1,7 +1,8 @@
-POST http://localhost:3001/api/notes
-Content-Type: application/json
+POST http://localhost:3001/api/notes 
+Content-Type: application/json 
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im11c3RhZmEiLCJpZCI6IjVmNDEwOWMzYTQ0NjViYWQ5Y2JlOTExYSIsImlhdCI6MTU5ODA5ODUzMn0.PIKkaAqu1I6NFeY9SVGM9vRaGUNyOx9Xnz6KdyBtg5s
 
 {
-    "content":"HTML is Easy",
-    "important": false
+"content": "Single page apps use token authentication", 
+"important": false
 }
